@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.6.3.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <title>Cards in Bootstrap4</title>
+    <style>
+         section{
+            width: 300px;
+            margin:0 auto;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-success">
+    <a class="navbar-brand" href="#">Cards in Bootstrap4</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<div class="container mt-5">
+        <!--########################START HERE#########################-->
+        
+
+       <!-- CARD WITH IMAGE -->
+        <div class="card" style="width: 360px;">
+            <div class="card-header bg-success">
+                <h3>Full Stack</h3>
+            </div>
+             <div class="card-body">
+                <img src="img/card.jpg" alt="Card image cap">
+             </div>
+            <div class="card-footer bg-primary text-white"> 
+                <h4>Card Title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+                 <a href="#">Read More</a>
+            </div>
+        </div>
+
+        <br><br>
+
+        <!-- IMAGE OVERLAYS  card-img , card-img-overlay -->
+        <div class="card" style="width: 100%;">
+            <div class="card-header bg-success">
+                <h3>Full Stack</h3>
+            </div>
+            <div class="card-body">
+                <img src="img/card_img.jpg" style="width: 992px; height: 200px">
+             </div>
+           
+            <div class="card-footer bg-secondary text-white">
+                <h4>Card title</h4>
+                <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p><small>Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+
+        </div>
+    
+        <br><br>
+
+         <!-- CARD DECK -->
+
+         <div class="container">
+             <div class="row">
+            <div class="col-md-4">
+               <!-- Card -->
+            <div class="card">
+            
+                <!-- Card image -->
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="Card image cap">
+            
+                <!-- Card content -->
+                <div class="card-body">
+            
+                    <!-- Title -->
+                    <h4 class="card-title"><a>Card title</a></h4>
+                    <!-- Text -->
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <!-- Button -->
+                    <a href="#" class="btn btn-primary">Button</a>
+            
+                </div>
+            
+            </div>
+            </div>
+           <div class="col-md-4">
+               <!-- Card -->
+                <!-- Card Wider -->
+                <div class="card">
+                    <!-- Card content -->
+                    <div class="card-body text-center">
+                        <img  class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo6.jpg" alt="Card image cap">
+                        <!-- Title -->
+                        <h4 class="card-title"><strong>Alison Belmont</strong></h4>
+                        <!-- Subtitle -->
+                        <h5 class="blue-text pb-2"><strong>Graffiti Artist</strong></h5>
+                        <!-- Text -->
+                        <p class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem aperiam. </p>
+            
+                        <!-- Linkedin -->
+                        <i class="fab fa-linkedin-in fa-2x"></i> &nbsp;
+                        <!-- Twitter -->
+                       <i class="fab fa-twitter fa-2x"></i> &nbsp;
+                        <!-- Dribbble -->
+                       <i class="fab fa-facebook-f fa-2x"></i>
+            
+                    </div>
+            
+           </div>
+                </div>
+          
+            </div>
+            </div>
+
+<!-- BODY ENDS -->
+<script src="bootstrap/js/fontawesome-all.js"></script>
+<script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/mdb.min.js"></script>
+</body>
+</html>
